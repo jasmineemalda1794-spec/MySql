@@ -13,13 +13,13 @@ amount	            INT	            Order amount in currency units
 
 ## SQL Queries & Purpose:
 
-# Total revenue per city:
+#Total revenue per city:
 
 SELECT city, SUM(amount) AS total_revenue
 FROM orders
 GROUP BY city;
 
-#Shows total revenue generated in each city.
+Shows total revenue generated in each city.
 
 # 3 highest orders:
 
