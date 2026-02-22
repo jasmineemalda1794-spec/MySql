@@ -58,16 +58,16 @@ HAVING COUNT(*) > 1;
 
 ## How to Use:
 
-Create the orders table in MySQL.
-Insert sample data provided.
+Create the orders table in MySQL.\
+Insert sample data provided.\
 Run queries to see the results.
 
 
 
 ## Skills Demonstrated:
 
-SQL SELECT, WHERE
-Aggregations: COUNT, SUM, AVG, MIN, MAX
-GROUP BY & HAVING
-ORDER BY & LIMIT
+SQL SELECT, WHERE\
+Aggregations: COUNT, SUM, AVG, MIN, MAX\
+GROUP BY & HAVING\
+ORDER BY & LIMIT\
 DISTINCT, IN, BETWEEN, LIKE
