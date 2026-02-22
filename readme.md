@@ -21,38 +21,38 @@ GROUP BY city;
 
 Shows total revenue generated in each city.
 
-# 3 highest orders:
+### 3 highest orders:
 
 SELECT * FROM orders
 ORDER BY amount DESC
 LIMIT 3;
 
-# Identifies the three largest orders by amount.
+ Identifies the three largest orders by amount.
 
-# Total revenue per customer:
+### Total revenue per customer:
 
 SELECT customer_name, SUM(amount) AS total_revenue
 FROM orders
 GROUP BY customer_name;
 
-# Calculates total spending per customer.
+ Calculates total spending per customer.
 
-# Average order amount per city:
+### Average order amount per city:
 
 SELECT city, AVG(amount) AS avg_order
 FROM orders
 GROUP BY city;
 
-# Helps understand average order value for each city.
+ Helps understand average order value for each city.
 
-# Customers with more than 1 order:
+### Customers with more than 1 order:
 
 SELECT customer_name, COUNT(*) AS orders_count
 FROM orders
 GROUP BY customer_name
 HAVING COUNT(*) > 1;
 
-# Finds repeat customers to analyze loyalty.
+ Finds repeat customers to analyze loyalty.
 
 
 
